@@ -1,0 +1,50 @@
+body {
+    background-color: lightsteelblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    border: #ff5064;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+ol, ul {
+    padding-left: 30px;
+}
+
+
+.status {
+    margin-bottom: 10px;
+}
+.game-info {
+    margin-left: 20px;
+}
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+
+p {
+    font-family: FreeSerif;
+    font-size: 20px;
+}
